@@ -1,0 +1,106 @@
+:root {
+    --palette-placeholder-text: #787675;
+    --color-white: #fff;
+    --color-off-white: #f3f6f9;
+    --color-black: #262833;
+    --color-gray: #4e5a66;
+    --color-gray-dark: #06172a;
+    --color-gray-light: #8b9aa8;
+    --color-gray-darkest: #111111;
+    --color-gray-lighter: #a7b3bd;
+    --color-gray-lightest: #d4d9df;
+    --color-blue-light: #54a1f3;
+    --color-blue-lighter: #92bcea;
+    --color-blue-lightest: #e4ecf2;
+    --color-primary: #812bea;
+    --color-success: #812bea;
+    --color-danger: #df2721;
+    --color-warning: purple;
+    --color-offline: var(--color-gray-light);
+    --color-muted: #586571;
+    --color-muted-background: #f3f6f9;
+    --color-background: var(--color-gray-dark);
+    --color-content-background: #1b2a3a;
+    --color-text: var(--color-gray);
+    --color-heading: var(--color-gray-dark);
+    --color-link: var(--color-primary);
+    --color-link-hover: #2687ef;
+    --color-gray-label: var(--color-gray);
+    --color-transparent: #ff000000;
+    --color-tip-bg: #333333;
+    --color-white-with-transparency: #ffffff40;
+    --loader-bg: #642b73;
+    --loader-bullet: var(--color-white);
+    --user-list-bg: var(--color-off-white);
+    --unread-messages-bg: var(--color-danger);
+    --user-list-text: var(--color-gray);
+    --user-thumbnail-border: var(--color-gray-light);
+    --user-thumbnail-text: var(--user-thumbnail-border);
+    --voice-user-bg: var(--color-success);
+    --voice-user-text: var(--color-white);
+    --moderator-text: var(--color-white);
+    --moderator-bg: var(--color-primary);
+    --sub-name-color: var(--color-gray-light);
+    --user-icons-color: var(--color-gray-light);
+    --user-icons-color-hover: var(--color-gray);
+    --list-item-bg-hover: #dce4ed;
+    --item-focus-border: var(--color-blue-lighter);
+    --toolbar-button-color: var(--btn-default-color);
+    --toolbar-button-bg: var(--btn-default-bg);
+    --toolbar-button-border-color: var(--color-gray-lighter);
+    --toolbar-list-bg: #ddd;
+    --toolbar-list-bg-focus: #c6c6c6;
+    --toolbar-list-color: var(--color-primary);
+    --btn-default-color: var(--color-gray);
+    --btn-default-bg: var(--color-white);
+    --btn-default-border: var(--color-white);
+    --btn-primary-color: var(--color-white);
+    --btn-primary-bg: var(--color-primary);
+    --btn-primary-border: var(--color-primary);
+    --btn-success-color: var(--color-white);
+    --btn-success-bg: var(--color-success);
+    --btn-success-border: var(--color-success);
+    --btn-warning-color: var(--color-white);
+    --btn-warning-bg: var(--color-warning);
+    --btn-warning-border: var(--color-warning);
+    --btn-danger-color: var(--color-white);
+    --btn-danger-bg: var(--color-danger);
+    --btn-danger-border: var(--color-danger);
+    --btn-dark-color: var(--color-white);
+    --btn-dark-bg: var(--color-gray-dark);
+    --btn-dark-border: var(--color-danger);
+    --btn-offline-color: var(--color-white);
+    --btn-offline-bg: var(--color-offline);
+    --btn-offline-border: var(--color-offline);
+    --btn-muted-color: var(--color-muted);
+    --btn-muted-bg: var(--color-muted-background);
+    --btn-muted-border: var(--color-muted-background);
+  }
+  #layout {
+    background-image: url(./background-image.png);
+    background-color: rgba(122, 105, 230, 0.3);
+    background-attachment: fixed;
+  }
+  
+  div[class^="presentationContainer"] > div[class^="presentation"] {
+    background-image: url(./background-image.png);
+    background-color: rgba(122, 105, 230, 0.3);
+    background-attachment: fixed;
+  }
+  
+  div[class^="screenshareContainerPresenter"] {
+    background-image: url(./background-image.png);
+    background-color: rgba(122, 105, 230, 0.3);
+    background-attachment: fixed;
+  }
+  
+  .icon-bbb-group_chat {
+    color: var(--color-primary);
+  }
+  .icon-bbb-copy {
+    color: var(--color-primary) !important;
+  }
+  
+  .icon-bbb-closed_caption {
+    color: var(--color-primary) !important;
+  }
