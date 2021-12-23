@@ -14,7 +14,7 @@ install_themes(){
         case $yn in
             Yes ) 
             wget -O "$BBB_WEBROOT/main.tar.gz" https://github.com/manishkatyan/bbb-themes/archive/main.tar.gz   
-            tar -xvzf "$BBB_WEBROOT/main.tar.gz" -C "$BBB_WEBROOT/bbb-themes/"
+            tar -xvzf "$BBB_WEBROOT/main.tar.gz" -C "$BBB_WEBROOT/bbb-themes/" --strip-components=1
             if ! grep -Fxq "<link rel=\"stylesheet\" href=\"/bbb-themes/bbb-theme.css\">" $HEAD_HTML
             then
                 echo "">> $HEAD_HTML
@@ -34,7 +34,7 @@ install_themes(){
         echo "Creating bbb-themes"
         mkdir -p "$BBB_WEBROOT/bbb-themes"
         wget -O "$BBB_WEBROOT/main.tar.gz" https://github.com/manishkatyan/bbb-themes/archive/main.tar.gz; 
-        tar -xvzf "$BBB_WEBROOT/main.tar.gz" -C "$BBB_WEBROOT/bbb-themes/"
+        tar -xvzf "$BBB_WEBROOT/main.tar.gz" -C "$BBB_WEBROOT/bbb-themes/" --strip-components=1
         echo "">> $HEAD_HTML
         echo "">> $HEAD_HTML_LEGACY
         echo "<link rel=\"stylesheet\" href=\"/bbb-themes/bbb-theme.css\">"  >>  $HEAD_HTML
