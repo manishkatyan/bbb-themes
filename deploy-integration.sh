@@ -7,20 +7,20 @@ BBB_WEBROOT="/var/www/bigbluebutton-default"
 
 install_themes(){
     backup_default_files
-    if [ -d "$BBB_WEBROOT/bbb-themes" ];then
+    if [ -d "$BBB_WEBROOT/themes" ];then
     echo "bbb-theme already installed.Do you wish to install it again?"
-    echo "Note: Any changes you have made to bbb-themes will be lost"
+    echo "Note: Any changes you have made to themes will be lost"
     select yn in "Yes" "No"; do
         case $yn in
             Yes ) 
             wget -O "$BBB_WEBROOT/main.tar.gz" https://github.com/manishkatyan/bbb-themes/archive/main.tar.gz   
-            tar -xvzf "$BBB_WEBROOT/main.tar.gz" -C "$BBB_WEBROOT/bbb-themes/" --strip-components=1
-            if ! grep -Fxq "<link rel=\"stylesheet\" href=\"/bbb-themes/bbb-theme.css\">" $HEAD_HTML
+            tar -xvzf "$BBB_WEBROOT/main.tar.gz" -C "$BBB_WEBROOT/themes/" --strip-components=1
+            if ! grep -Fxq "<link rel=\"stylesheet\" href=\"/themes/bbb-theme.css\">" $HEAD_HTML
             then
                 echo "">> $HEAD_HTML
                 echo "">> $HEAD_HTML_LEGACY
-                echo "<link rel=\"stylesheet\" href=\"/bbb-themes/bbb-theme.css\">"  >>  $HEAD_HTML
-                echo "<link rel=\"stylesheet\" href=\"/bbb-themes/bbb-theme.css\">"  >>  $HEAD_HTML_LEGACY
+                echo "<link rel=\"stylesheet\" href=\"/themes/bbb-theme.css\">"  >>  $HEAD_HTML
+                echo "<link rel=\"stylesheet\" href=\"/themes/bbb-theme.css\">"  >>  $HEAD_HTML_LEGACY
             fi
             echo "Please select the theme."
             set_theme
@@ -31,16 +31,16 @@ install_themes(){
     done
 
     else
-        echo "Creating bbb-themes"
-        mkdir -p "$BBB_WEBROOT/bbb-themes"
+        echo "Creating themes"
+        mkdir -p "$BBB_WEBROOT/themes"
         wget -O "$BBB_WEBROOT/main.tar.gz" https://github.com/manishkatyan/bbb-themes/archive/main.tar.gz; 
-        tar -xvzf "$BBB_WEBROOT/main.tar.gz" -C "$BBB_WEBROOT/bbb-themes/" --strip-components=1
-        if ! grep -Fxq "<link rel=\"stylesheet\" href=\"/bbb-themes/bbb-theme.css\">" $HEAD_HTML
+        tar -xvzf "$BBB_WEBROOT/main.tar.gz" -C "$BBB_WEBROOT/themes/" --strip-components=1
+        if ! grep -Fxq "<link rel=\"stylesheet\" href=\"/themes/bbb-theme.css\">" $HEAD_HTML
         then
             echo "">> $HEAD_HTML
             echo "">> $HEAD_HTML_LEGACY
-            echo "<link rel=\"stylesheet\" href=\"/bbb-themes/bbb-theme.css\">"  >>  $HEAD_HTML
-            echo "<link rel=\"stylesheet\" href=\"/bbb-themes/bbb-theme.css\">"  >>  $HEAD_HTML_LEGACY
+            echo "<link rel=\"stylesheet\" href=\"/themes/bbb-theme.css\">"  >>  $HEAD_HTML
+            echo "<link rel=\"stylesheet\" href=\"/themes/bbb-theme.css\">"  >>  $HEAD_HTML_LEGACY
         fi
         echo "Please select the theme."
         set_theme
@@ -61,19 +61,19 @@ backup_default_files(){
 }
 
 uninstall_themes(){
-    echo "Uninstalling bbb-themes"
+    echo "Uninstalling themes"
     mv $HEAD_HTML_DEFAULT $HEAD_HTML
     mv $HEAD_HTML_LEGACY_DEFAULT $HEAD_HTML_LEGACY
-    echo "Please restart the BigBlueButton to complete the bbb-themes uninstall"
+    echo "Please restart the BigBlueButton to complete the themes uninstall"
     echo "To restart please run bbb-conf --restart"
 }
 
 
 set_theme(){
-    cd "$BBB_WEBROOT/bbb-themes/themes/";
+    cd "$BBB_WEBROOT/themes/themes/";
     select theme in *; do
         echo "Selected Theme: $theme"
-        echo "@import \"./themes/$theme/theme.css\"" > "$BBB_WEBROOT/bbb-themes/bbb-theme.css"
+        echo "@import \"./themes/$theme/theme.css\"" > "$BBB_WEBROOT/themes/bbb-theme.css"
         break;
     done
 }
