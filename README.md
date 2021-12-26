@@ -32,7 +32,7 @@ Run:
 
 `rm /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/<IMAGE_NAME>.jpg`
 
-`rm /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/<IMAGE_NAME.jpg>`
+`rm /usr/share/meteor/bundle/programs/web.browser/app/resources/images/virtual-backgrounds/thumbnails/<IMAGE_NAME>.jpg`
 
 Remove the IMAGE_NAME.jpg from `/etc/bigbluebutton/bbb-html5.yml`
 
