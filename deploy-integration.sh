@@ -97,16 +97,20 @@ set_theme(){
 # }
 
 init_bbb_themes(){
-    select action in Set-Theme Install Uninstall Exit;do
+    select action in Install Set-Theme "Set-Virtual Backgrounds" Set Uninstall Exit;do
         case $action in
+            Install )
+                install_themes
+                break;;
+
             Set-Theme )
                 set_theme
                 echo "Theme set successfully."
                 break;;
-
-            Install )
-                install_themes
-                 break;;
+            "Set-Virtual Backgrounds" )
+                ./virtual-backgrounds/apply-virtual-backgrounds.sh
+                echo "Virtual Backgrounds successfully."
+                break;;
 
             Uninstall )
                 uninstall_themes;
