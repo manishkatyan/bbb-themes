@@ -1,6 +1,6 @@
 :root {
   --palette-placeholder-text: #787675;
-  --color-white: #fff;
+  --color-white: #fff !important;
   --color-off-white: #f8f6f2;
   --color-black: #262833;
   --color-gray: #4e5a66;
