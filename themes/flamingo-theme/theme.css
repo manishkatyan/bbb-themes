@@ -1,0 +1,128 @@
+:root {
+  --palette-placeholder-text: #787675;
+  --color-white: #fff;
+  --color-off-white: #f8f6f2;
+  --color-black: #262833;
+  --color-gray: #4e5a66;
+  --color-gray-dark: #06172a;
+  --color-gray-light: #8b9aa8;
+  --color-gray-darkest: #111111;
+  --color-gray-lighter: #a7b3bd;
+  --color-gray-lightest: #d4d9df;
+  --color-blue-light: #54a1f3;
+  --color-blue-lighter: #92bcea;
+  --color-blue-lightest: #e4ecf2;
+  --color-primary: #4fc9da;
+  --color-success: #4fc9da;
+  --color-danger: #e03710;
+  --color-warning: purple;
+  --color-muted: #586571;
+  --color-muted-background: #f3f6f9;
+  --color-content-background: #1b2a3a;
+  --color-link-hover: #2687ef;
+  --color-transparent: #ff000000;
+  --color-tip-bg: #333333;
+  --color-white-with-transparency: #ffffff40;
+  --loader-bg: #642b73;
+  --user-list-bg: #f8f6f2;
+  --list-item-bg-hover: #dce4ed;
+  --toolbar-list-bg: #ddd;
+  --toolbar-list-bg-focus: #c6c6c6;
+  --btn-default-color: #fff;
+  --btn-default-bg: #4fc9da;
+  --btn-primary-color: #fff;
+  --btn-primary-bg: #4fc9da;
+  --user-color: #4fc9da;
+}
+
+#layout {
+  background-image: url(./background-image.jpg);
+  background-attachment: fixed;
+}
+
+div[class^="presentationContainer"] > div[class^="presentation"] {
+  background-image: url(./background-image.jpg);
+  background-attachment: fixed;
+}
+
+div[class^="screenshareContainerPresenter"] {
+  background-image: url(./background-image.jpg);
+  background-attachment: fixed;
+}
+
+.icon-bbb-group_chat {
+  color: var(--color-primary);
+}
+.icon-bbb-copy {
+  color: var(--color-primary) !important;
+}
+
+.icon-bbb-closed_caption {
+  color: var(--color-primary) !important;
+}
+
+.normal--2buOMv .bar--3tmgA {
+  background-color: #fff;
+}
+.presentationToolbarWrapper--Z2d8py5 i {
+  color: #000;
+}
+.default--Z19H5du {
+  color: #000;
+}
+.scrollStyle--Ckr4w {
+  background: linear-gradient(#f8f6f2 30%, rgba(255, 255, 255, 0)),
+    linear-gradient(rgba(255, 255, 255, 0), #f8f6f2 70%) 0 100%,
+    radial-gradient(
+      farthest-side at 50% 0,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0)
+    ),
+    radial-gradient(
+        farthest-side at 50% 100%,
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0)
+      )
+      0 100%;
+}
+.react-toggle-track {
+  background-color: #ddf8fc;
+}
+.muted--2og8uq:after {
+  background-color: #f06445;
+}
+.danger--Z2aBq0k {
+  background-color: #f06445;
+}
+
+.react-toggle--focus .react-toggle-thumb {
+  box-shadow: 0 0 2px 3px #4fc9da;
+}
+.avatar--Z2lyL8K.moderator--24bqCT.presenter--Z1INqI5.voice--2oPUk4 {
+  background-color: #4fc9da !important;
+}
+
+.avatar--Z2lyL8K.moderator--24bqCT.presenter--Z1INqI5.muted--2og8uq.voice--2oPUk4 {
+  background-color: #4fc9da !important;
+}
+.avatar--Z2lyL8K.muted--2og8uq.voice--2oPUk4 {
+  background-color: #4fc9da !important;
+}
+.avatar--Z2lyL8K.initials--Z2l7TE3 {
+  background-color: #4fc9da !important;
+}
+.avatar--Z2lyL8K.voice--2oPUk4 {
+  background-color: #4fc9da !important;
+}
+.talking--2eGaCj {
+  background-color: #4fcd9a;
+}
+.presentationToolbarWrapper--Z2d8py5 select option {
+  color: #000;
+}
+.avatar--Z2lyL8K.moderator--24bqCT.avatar--Z20xpIn {
+  background-color: #4fc9da !important;
+}
+.avatar--Z2lyL8K.avatar--Z20xpIn {
+  background-color: #4fc9da !important;
+}
