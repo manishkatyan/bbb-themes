@@ -1,7 +1,7 @@
 :root {
   --palette-placeholder-text: #787675;
   --color-white: #fff !important;
-  --color-off-white: #f8f6f2;
+  --color-off-white: #f8f6f2 !important;
   --color-black: #262833;
   --color-gray: #4e5a66;
   --color-gray-dark: #06172a;
@@ -62,13 +62,13 @@ div[class^="screenshareContainerPresenter"] {
 }
 
 .normal--2buOMv .bar--3tmgA {
-  background-color: #fff;
+  background-color: #fff !important;
 }
 .presentationToolbarWrapper--Z2d8py5 i {
-  color: #000;
+  color: #000 !important;
 }
 .default--Z19H5du {
-  color: #000;
+  color: #000 !important;
 }
 .scrollStyle--Ckr4w {
   background: linear-gradient(#f8f6f2 30%, rgba(255, 255, 255, 0)),
@@ -83,20 +83,20 @@ div[class^="screenshareContainerPresenter"] {
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0)
       )
-      0 100%;
+      0 100% !important;
 }
 .react-toggle-track {
-  background-color: #ddf8fc;
+  background-color: #ddf8fc !important;
 }
 .muted--2og8uq:after {
-  background-color: #f06445;
+  background-color: #f06445 !important;
 }
 .danger--Z2aBq0k {
-  background-color: #f06445;
+  background-color: #f06445 !important;
 }
 
 .react-toggle--focus .react-toggle-thumb {
-  box-shadow: 0 0 2px 3px #4fc9da;
+  box-shadow: 0 0 2px 3px #4fc9da !important;
 }
 .avatar--Z2lyL8K.moderator--24bqCT.presenter--Z1INqI5.voice--2oPUk4 {
   background-color: #4fc9da !important;
@@ -115,10 +115,10 @@ div[class^="screenshareContainerPresenter"] {
   background-color: #4fc9da !important;
 }
 .talking--2eGaCj {
-  background-color: #4fcd9a;
+  background-color: #4fcd9a !important;
 }
 .presentationToolbarWrapper--Z2d8py5 select option {
-  color: #000;
+  color: #000 !important;
 }
 .avatar--Z2lyL8K.moderator--24bqCT.avatar--Z20xpIn {
   background-color: #4fc9da !important;
