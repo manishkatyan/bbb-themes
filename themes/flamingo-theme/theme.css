@@ -12,9 +12,9 @@
   --color-blue-light: #54a1f3;
   --color-blue-lighter: #92bcea;
   --color-blue-lightest: #e4ecf2;
-  --color-primary: #4fc9da;
-  --color-success: #4fc9da;
-  --color-danger: #e03710;
+  --color-primary: #4fc9da !important;
+  --color-success: #4fc9da !important;
+  --color-danger: #e03710 !important;
   --color-warning: purple;
   --color-muted: #586571;
   --color-muted-background: #f3f6f9;
@@ -24,30 +24,30 @@
   --color-tip-bg: #333333;
   --color-white-with-transparency: #ffffff40;
   --loader-bg: #642b73;
-  --user-list-bg: #f8f6f2;
+  --user-list-bg: #f8f6f2 !important;
   --list-item-bg-hover: #dce4ed;
   --toolbar-list-bg: #ddd;
   --toolbar-list-bg-focus: #c6c6c6;
-  --btn-default-color: #fff;
+  --btn-default-color: #fff !important;
   --btn-default-bg: #4fc9da;
-  --btn-primary-color: #fff;
-  --btn-primary-bg: #4fc9da;
-  --user-color: #4fc9da;
+  --btn-primary-color: #fff !important;
+  --btn-primary-bg: #4fc9da !important;
+  --user-color: #4fc9da !important;
 }
 
 #layout {
-  background-image: url(./background-image.jpg);
-  background-attachment: fixed;
+  background-image: url(./background-image.jpg) !important;
+  background-attachment: fixed !important;
 }
 
 div[class^="presentationContainer"] > div[class^="presentation"] {
-  background-image: url(./background-image.jpg);
-  background-attachment: fixed;
+  background-image: url(./background-image.jpg) !important;
+  background-attachment: fixed !important;
 }
 
 div[class^="screenshareContainerPresenter"] {
-  background-image: url(./background-image.jpg);
-  background-attachment: fixed;
+  background-image: url(./background-image.jpg) !important;
+  background-attachment: fixed !important;
 }
 
 .icon-bbb-group_chat {
