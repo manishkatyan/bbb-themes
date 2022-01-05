@@ -127,22 +127,51 @@ div[class^="screenshareContainerPresenter"] {
   background-color: #4fc9da !important;
 }
 
-.primary--1IbqAO {
-  background-color: #4fc9da;
-}
-.primary--1IbqAO:focus,
-.buttonWrapper--x8uow:focus:not([aria-disabled="true"]).primary--1IbqAO {
-  background-color: #4fc9da;
-}
-
-.ghost--Z136aiN.default--Z19H5du {
+span.button--Z2dosza.lg--Q7ufB.default--Z19H5du.ghost--Z136aiN.circle--Z2c8umk {
   color: #4fc9da;
 }
 
-.toolbarButton--Zak4uG {
+span.button--Z2dosza.lg--Q7ufB.primary--1IbqAO.circle--Z2c8umk {
+  background-color: #4fc9da;
+  box-shadow: 0 0 0 var(--border-size) #4fc9da;
+}
+
+button#tippy-31 {
   background-color: #4fc9da;
 }
 
-.toolbarButton--Zak4uG i {
+i.icon--2q1XXw.icon-bbb-hand {
+  color: #fff;
+}
+
+button#tippy-37 {
+  background-color: #4fc9da;
+}
+
+i.icon--2q1XXw.icon-bbb-undo {
+  color: #fff;
+}
+
+button#tippy-39 {
+  background-color: #4fc9da;
+}
+
+i.icon--2q1XXw.icon-bbb-delete {
+  color: #fff;
+}
+
+button#tippy-41 {
+  background-color: #4fc9da;
+}
+
+i.icon--2q1XXw.icon-bbb-no_palm_rejection {
+  color: #fff;
+}
+
+button#tippy-43 {
+  background-color: #4fc9da;
+}
+
+i.icon--2q1XXw.icon-bbb-whiteboard {
   color: #fff;
 }
