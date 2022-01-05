@@ -1,7 +1,7 @@
 :root {
   --palette-placeholder-text: #787675;
-  --color-white: #fff !important;
-  --color-off-white: #f8f6f2 !important;
+  --color-white: #fff;
+  --color-off-white: #f8f6f2;
   --color-black: #262833;
   --color-gray: #4e5a66;
   --color-gray-dark: #06172a;
@@ -12,9 +12,9 @@
   --color-blue-light: #54a1f3;
   --color-blue-lighter: #92bcea;
   --color-blue-lightest: #e4ecf2;
-  --color-primary: #4fc9da !important;
-  --color-success: #4fc9da !important;
-  --color-danger: #e03710 !important;
+  --color-primary: #4fc9da;
+  --color-success: #4fc9da;
+  --color-danger: #e03710;
   --color-warning: purple;
   --color-muted: #586571;
   --color-muted-background: #f3f6f9;
@@ -24,30 +24,30 @@
   --color-tip-bg: #333333;
   --color-white-with-transparency: #ffffff40;
   --loader-bg: #642b73;
-  --user-list-bg: #f8f6f2 !important;
+  --user-list-bg: #f8f6f2;
   --list-item-bg-hover: #dce4ed;
   --toolbar-list-bg: #ddd;
   --toolbar-list-bg-focus: #c6c6c6;
-  --btn-default-color: #fff !important;
+  --btn-default-color: #fff;
   --btn-default-bg: #4fc9da;
-  --btn-primary-color: #fff !important;
-  --btn-primary-bg: #4fc9da !important;
-  --user-color: #4fc9da !important;
+  --btn-primary-color: #fff;
+  --btn-primary-bg: #4fc9da;
+  --user-color: #4fc9da;
 }
 
 #layout {
-  background-image: url(./background-image.jpg) !important;
-  background-attachment: fixed !important;
+  background-image: url(https://ik.imagekit.io/0onteynfocy/bbb-theme_LS5Fu6tDo.jpg?updatedAt=1640588036943);
+  background-attachment: fixed;
 }
 
 div[class^="presentationContainer"] > div[class^="presentation"] {
-  background-image: url(./background-image.jpg) !important;
-  background-attachment: fixed !important;
+  background-image: url(https://ik.imagekit.io/0onteynfocy/bbb-theme_LS5Fu6tDo.jpg?updatedAt=1640588036943);
+  background-attachment: fixed;
 }
 
 div[class^="screenshareContainerPresenter"] {
-  background-image: url(./background-image.jpg) !important;
-  background-attachment: fixed !important;
+  background-image: url(https://ik.imagekit.io/0onteynfocy/bbb-theme_LS5Fu6tDo.jpg?updatedAt=1640588036943);
+  background-attachment: fixed;
 }
 
 .icon-bbb-group_chat {
@@ -62,13 +62,13 @@ div[class^="screenshareContainerPresenter"] {
 }
 
 .normal--2buOMv .bar--3tmgA {
-  background-color: #fff !important;
+  background-color: #fff;
 }
 .presentationToolbarWrapper--Z2d8py5 i {
-  color: #000 !important;
+  color: #000;
 }
 .default--Z19H5du {
-  color: #000 !important;
+  color: #000;
 }
 .scrollStyle--Ckr4w {
   background: linear-gradient(#f8f6f2 30%, rgba(255, 255, 255, 0)),
@@ -83,20 +83,20 @@ div[class^="screenshareContainerPresenter"] {
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0)
       )
-      0 100% !important;
+      0 100%;
 }
 .react-toggle-track {
-  background-color: #ddf8fc !important;
+  background-color: #ddf8fc;
 }
 .muted--2og8uq:after {
-  background-color: #f06445 !important;
+  background-color: #f06445;
 }
 .danger--Z2aBq0k {
-  background-color: #f06445 !important;
+  background-color: #f06445;
 }
 
 .react-toggle--focus .react-toggle-thumb {
-  box-shadow: 0 0 2px 3px #4fc9da !important;
+  box-shadow: 0 0 2px 3px #4fc9da;
 }
 .avatar--Z2lyL8K.moderator--24bqCT.presenter--Z1INqI5.voice--2oPUk4 {
   background-color: #4fc9da !important;
@@ -115,10 +115,10 @@ div[class^="screenshareContainerPresenter"] {
   background-color: #4fc9da !important;
 }
 .talking--2eGaCj {
-  background-color: #4fcd9a !important;
+  background-color: #4fcd9a;
 }
 .presentationToolbarWrapper--Z2d8py5 select option {
-  color: #000 !important;
+  color: #000;
 }
 .avatar--Z2lyL8K.moderator--24bqCT.avatar--Z20xpIn {
   background-color: #4fc9da !important;
