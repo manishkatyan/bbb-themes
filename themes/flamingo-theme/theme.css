@@ -50,17 +50,6 @@ div[class^="screenshareContainerPresenter"] {
   background-attachment: fixed;
 }
 
-.icon-bbb-group_chat {
-  color: var(--color-primary);
-}
-.icon-bbb-copy {
-  color: var(--color-primary) !important;
-}
-
-.icon-bbb-closed_caption {
-  color: var(--color-primary) !important;
-}
-
 .normal--2buOMv .bar--3tmgA {
   background-color: #fff;
 }
@@ -141,7 +130,7 @@ button#tippy-31 {
 }
 
 i.icon--2q1XXw.icon-bbb-hand {
-  color: #fff;
+  color: #4fc9da;
 }
 
 button#tippy-37 {
@@ -174,4 +163,25 @@ button#tippy-43 {
 
 i.icon--2q1XXw.icon-bbb-whiteboard {
   color: #fff;
+}
+
+/* public chat */
+i.icon-bbb-group_chat {
+  color: #4fc9da;
+}
+
+/* shared Notes Icon */
+
+i.icon-bbb-copy {
+  color: #4fc9da;
+}
+
+/* download Icon */
+i.icon-bbb-download {
+  color: #4fc9da;
+}
+
+/* clear Icon */
+i.icon-bbb-delete {
+  color: #4fcd9a;
 }
