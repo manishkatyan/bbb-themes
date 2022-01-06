@@ -170,7 +170,7 @@ i.icon-bbb-group_chat {
   color: #4fc9da;
 }
 
-/* shared Notes Icon */
+/* Copy Icon */
 
 i.icon-bbb-copy {
   color: #4fc9da;
@@ -184,4 +184,14 @@ i.icon-bbb-download {
 /* clear Icon */
 i.icon-bbb-delete {
   color: #4fcd9a;
+}
+
+/* shared note Icon */
+.list--Z2pj65C i.icon-bbb-copy {
+  color: #4fc9da;
+}
+
+/* userlist presenter icon */
+.userAvatar--1GxXQi ::before {
+  background-color: #4fc9da;
 }
